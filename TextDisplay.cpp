@@ -6,11 +6,8 @@
 /*   By: dpeck <dpeck@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/11 23:32:27 by dpeck             #+#    #+#             */
-<<<<<<< HEAD
-/*   Updated: 2019/05/12 20:16:28 by dpeck            ###   ########.fr       */
-=======
+/*   Updated: 2019/06/29 20:54:32 by dpeck            ###   ########.fr       */
 /*   Updated: 2019/06/29 20:30:03 by dpeck            ###   ########.fr       */
->>>>>>> 94e395f... readme and screenshots. Also took out ram used in text version as it was bugging out.
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -108,8 +105,8 @@ void TextDisplay::render()
             else if (_modules[i] == "CPU Usage")
                 mvprintw(_heightSlots[i] + 1, 0, "User: %.1lf%%, Sys: %.1lf%%, Idle: %.1lf%%", _cpuMod->user, _cpuMod->sys, _cpuMod->idle);
             else if (_modules[i] == "Ram")
-                mvprintw(_heightSlots[i] + 1, 0, "%d Gb (Used) / %d Gb (Total) (%d0%%)", 
-                                                        _ramMod->used, _ramMod->total, _ramMod->used / static_cast<double>(_ramMod->total));
+                mvprintw(_heightSlots[i] + 1, 0, "%d Gb (Used) / %d Gb (Total)", 
+                                                        _ramMod->used, _ramMod->total);
             else if (_modules[i] == "Network")
                 mvprintw(_heightSlots[i] + 1, 0, "%s in, %s out, %s in, %s out", _netMod->network_mb_in.c_str(), _netMod->network_mb_out.c_str(), 
                                                                     _netMod->packets_mb_in.c_str(), _netMod->packets_mb_out.c_str());
