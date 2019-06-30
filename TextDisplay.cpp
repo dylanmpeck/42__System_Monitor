@@ -6,7 +6,11 @@
 /*   By: dpeck <dpeck@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/11 23:32:27 by dpeck             #+#    #+#             */
+<<<<<<< HEAD
 /*   Updated: 2019/05/12 20:16:28 by dpeck            ###   ########.fr       */
+=======
+/*   Updated: 2019/06/29 20:30:03 by dpeck            ###   ########.fr       */
+>>>>>>> 94e395f... readme and screenshots. Also took out ram used in text version as it was bugging out.
 /*                                                                            */
 /* ************************************************************************** */
 
