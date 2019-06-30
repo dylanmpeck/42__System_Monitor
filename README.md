@@ -35,6 +35,10 @@ Anything that is defined in Configuration.hpp will be created and drawn. To remo
 
 <h3>Screenshots</h3>
 
+![alt-text](https://github.com/dylanmpeck/42__System_Monitor/blob/master/screenshots/ncurses.png "Ncurses")
+![alt-text](https://github.com/dylanmpeck/42__System_Monitor/blob/master/screenshots/sdl2.png "sdl2")
+![alt-text](https://github.com/dylanmpeck/42__System_Monitor/blob/master/screenshots/fullgraph.png "Graph")
+
 <h3>TODO</h3>
 
 * Make the SDL2 window size and height of the modules scale to the user's screen resolution
