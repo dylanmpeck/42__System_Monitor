@@ -35,7 +35,12 @@ Anything that is defined in Configuration.hpp will be created and drawn. To remo
 
 <h3>Screenshots</h3>
 
+<strong>Ncurses</strong>
+
 ![alt-text](https://github.com/dylanmpeck/42__System_Monitor/blob/master/screenshots/ncurses.png "Ncurses")
+
+<strong>SDL2 GUI</strong>
+
 ![alt-text](https://github.com/dylanmpeck/42__System_Monitor/blob/master/screenshots/fullgraph.png "SDL2")
 
 <h3>TODO</h3>
